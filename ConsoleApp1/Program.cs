@@ -16,7 +16,7 @@ namespace ConsoleApp1
             Console.WriteLine("1.-Adoptar");
             Console.WriteLine("2.-ver lista de personas");
             Console.WriteLine("3.-Ver lista de perros");
-            Console.WriteLine();
+            Console.WriteLine("4.-Agregar cachorro ");
             Console.WriteLine();
             
             int caso = 1;
@@ -41,6 +41,7 @@ namespace ConsoleApp1
                     Console.WriteLine("Apellidos: " +_adoptador.Apellidos);
                     Console.WriteLine("Edad: "+_adoptador.Edad);
                     Console.ReadLine();
+                    
                         break;
                 case 3:
                     Console.WriteLine("Nombre del perro: " + _perro.Nombre);

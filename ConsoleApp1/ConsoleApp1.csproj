@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adoptador.cs" />
+    <Compile Include="IntefaceAdopcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IntefaceAdopcion.Designer.cs">
+      <DependentUpon>IntefaceAdopcion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mascota.cs" />
     <Compile Include="Perro.cs" />
     <Compile Include="Persona.cs" />
